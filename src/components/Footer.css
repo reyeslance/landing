@@ -1,5 +1,5 @@
 footer {
-  background: linear-gradient(90deg, #161A30  0%, rgb(26, 23, 23) 100%);
+  background: transparent;
   padding: 20px;
   text-align: center;
 }
@@ -18,4 +18,12 @@ footer {
 
 .footer-links a:hover {
   color: #007bff; /* Change this color to the desired hover color */
+}
+.hero-container {
+  position: relative;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
 }

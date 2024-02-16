@@ -2,10 +2,11 @@ import React from 'react';
 import '../App.css';
 import { Button } from './Button';
 import './HeroSection.css';
+import Footer from './Footer';
 
 function HeroSection() {
   const backgroundImageStyle = {
-    backgroundImage: `url(${process.env.PUBLIC_URL}/images/img2.jpg)`,
+    backgroundImage: `url(${process.env.PUBLIC_URL}/images/trey.jpg)`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
@@ -23,7 +24,8 @@ function HeroSection() {
         >
           GET STARTED
         </Button>
-      </div>
+      </div> 
+      <Footer />
     </div>
   );
 }
